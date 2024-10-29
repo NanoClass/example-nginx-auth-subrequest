@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Redirect /auth to /auth.php
+RewriteRule ^auth$ auth.php [L]
